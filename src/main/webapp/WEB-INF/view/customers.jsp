@@ -11,7 +11,6 @@
 <%
     List<Customer> lista = (List<Customer>) request.getAttribute("clientes");
 %>
-
 <html>
 <head>
     <title>Title</title>
@@ -39,8 +38,8 @@
         <td><%= cliente.getCreditLimit() %></td>
         <td><%= cliente.getDiscountCodeByDiscountCode().getRate() %></td>
         <td><%= cliente.getCity() %></td>
-        <td><a href="/editar?id=<%= cliente.getCustomerId() %>"> Editar</a></td>
-        <td><a href="/borrar?id=<%= cliente.getCustomerId() %>"> Borrar</a></td>
+        <td><a href="/customer/editar?id=<%= cliente.getCustomerId() %>"> Editar</a></td>
+        <td><a href="/customer/borrar?id=<%= cliente.getCustomerId() %>"> Borrar</a></td>
     </tr>
 
 
