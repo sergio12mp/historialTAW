@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/TAWListar.iml" filepath="$PROJECT_DIR$/.idea/TAWListar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sampleTAW.iml" filepath="$PROJECT_DIR$/sampleTAW.iml" />
     </modules>
   </component>
 </project>
